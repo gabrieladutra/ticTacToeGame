@@ -1,6 +1,10 @@
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
+    background: linear-gradient(to left, #FFAF7B, #D76D77, #3A1C71);
+    color: #FDFDFE;
+    font-size:20px;
+    font-family:sans-serif;
     margin: 20px;
+    
   }
   
   ol, ul {
@@ -18,18 +22,18 @@ body {
   }
   
   .square {
-    background: #fff;
+    background-color: white;
     border: 1px solid #999;
+    border-radius:25%;
     float: left;
     font-size: 24px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
+    height: 50px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    opacity: .2;
+    width: 50px;
   }
   
   .square:focus {
@@ -37,7 +41,7 @@ body {
   }
   
   .kbd-navigation .square:focus {
-    background: #ddd;
+    background: white;
   }
   
   .game {
